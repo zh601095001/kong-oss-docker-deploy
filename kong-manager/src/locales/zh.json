@@ -1,0 +1,262 @@
+{
+  "global": {
+    "copied": "已成功复制到剪贴板",
+    "error": "发生错误，请重试",
+    "buttons": {
+      "back": "返回",
+      "edit": "编辑",
+      "save": "保存",
+      "create": "创建"
+    },
+    "learn.more": "了解更多"
+  },
+  "overview": {
+    "info": {
+      "gateway": {
+        "title": "网关",
+        "edition": "版本类型",
+        "version": "版本"
+      },
+      "node": {
+        "title": "节点详情",
+        "address": "地址",
+        "hostname": "主机名"
+      },
+      "port": {
+        "title": "端口详情",
+        "port": "Kong 管理端口",
+        "ssl": "Kong 管理 SSL 端口",
+        "proxy": "代理端口",
+        "proxy.ssl": "代理 SSL 端口"
+      },
+      "datastore": {
+        "title": "数据存储",
+        "type": "类型",
+        "user": "用户",
+        "host": "主机",
+        "port": "端口",
+        "ssl": "SSL"
+      }
+    },
+    "resource": {
+      "intro": {
+        "title": "简介",
+        "description": "轻量、快速且灵活的云原生 API 网关。"
+      },
+      "start": {
+        "title": "入门",
+        "description": "刚接触 Kong？从基础开始了解。"
+      },
+      "plugin": {
+        "title": "插件中心",
+        "description": "使用强大的插件扩展 Kong 网关功能。"
+      },
+      "discuss": {
+        "title": "Kong 社区",
+        "description": "与其他人讨论 Kong 相关话题。"
+      }
+    }
+  },
+  "not-found": {
+    "description": "无法找到您要访问的页面。请返回上一页或 {overview}。"
+  },
+  "konnect-cta": {
+    "name": "Konnect",
+    "description": "使用 Kong 网关最简单的方式。",
+    "get.started": "开始使用",
+    "footer.description": "无需信用卡，可免费使用",
+    "feature.1": "通过 Konnect 的 SaaS 控制平面简化网关操作",
+    "feature.2": "体验企业级插件，如 OpenID Connect、mTLS 和 OPA",
+    "feature.3": "开箱即用的 API 分析功能",
+    "feature.4": "简化 Kong 网关升级",
+    "feature.5": "部署带有注册管理的 API 开发门户"
+  },
+  "entities": {
+    "service": {
+      "description": "Gateway 服务实体是你自己的上游服务的抽象，例如数据转换微服务或计费 API。",
+      "created": "Gateway 服务 \"{name}\" 创建成功！",
+      "updated": "Gateway 服务 \"{name}\" 更新成功！",
+      "deleted": "Gateway 服务 \"{name}\" 删除成功！",
+      "list.title": "Gateway 服务",
+      "detail.title": "Gateway 服务: {name}",
+      "create.form.title": "新建 Gateway 服务",
+      "edit.form.title": "编辑 Gateway 服务"
+    },
+    "route": {
+      "description": "Route 定义了匹配客户端请求的规则，并关联到一个 Service。",
+      "created": "Route \"{name}\" 创建成功！",
+      "updated": "Route \"{name}\" 更新成功！",
+      "deleted": "Route \"{name}\" 删除成功！",
+      "list.title": "Routes",
+      "detail.title": "Route: {name}",
+      "create.form.title": "新建 Route",
+      "edit.form.title": "编辑 Route"
+    },
+    "consumer": {
+      "description": "Consumer 是服务的终端用户。",
+      "created": "Consumer \"{name}\" 创建成功！",
+      "updated": "Consumer \"{name}\" 更新成功！",
+      "deleted": "Consumer \"{name}\" 删除成功！",
+      "list.title": "Consumers",
+      "detail.title": "Consumer: {name}",
+      "create.form.title": "新建 Consumer",
+      "edit.form.title": "编辑 Consumer"
+    },
+    "consumer-credential": {
+      "created": "凭证创建成功！",
+      "updated": "凭证更新成功！",
+      "deleted": "凭证删除成功！",
+      "empty": {
+        "title": "没有启用插件",
+        "message": "为该 Consumer 添加凭证前，请安装以下插件之一：{plugins}",
+        "button": "安装插件"
+      },
+      "create.form.title": "创建: {type}",
+      "edit.form.title": "编辑: {type}"
+    },
+    "plugin": {
+      "description": "插件可以扩展 Kong 的功能，如限流、认证和日志记录。",
+      "created": "插件 \"{name}\" 创建成功！",
+      "updated": "插件 \"{name}\" 更新成功！",
+      "deleted": "插件 \"{name}\" 删除成功！",
+      "enabled": "插件 \"{name}\" 启用成功！",
+      "disabled": "插件 \"{name}\" 禁用成功！",
+      "list.title": "插件列表",
+      "create.form.title": "新建插件",
+      "edit.form.title": "编辑插件"
+    },
+    "upstream": {
+      "description": "Upstream 代表虚拟主机名，可用于在多个服务间负载均衡请求。",
+      "created": "Upstream \"{name}\" 创建成功！",
+      "updated": "Upstream \"{name}\" 更新成功！",
+      "deleted": "Upstream \"{name}\" 删除成功！",
+      "list.title": "Upstreams",
+      "detail.title": "Upstream: {name}",
+      "create.form.title": "新建 Upstream",
+      "edit.form.title": "编辑 Upstream"
+    },
+    "certificate": {
+      "description": "证书处理加密请求的 SSL/TLS 终止。",
+      "created": "证书 \"{id}\" 创建成功！",
+      "updated": "证书 \"{id}\" 更新成功！",
+      "deleted": "证书 \"{id}\" 删除成功！",
+      "list.title": "证书列表",
+      "detail.title": "证书: {id}",
+      "create.form.title": "新建证书",
+      "edit.form.title": "编辑证书"
+    },
+    "ca-certificate": {
+      "description": "CA 证书用于验证客户端或服务器证书。",
+      "created": "CA 证书 \"{id}\" 创建成功！",
+      "updated": "CA 证书 \"{id}\" 更新成功！",
+      "deleted": "CA 证书 \"{id}\" 删除成功！",
+      "list.title": "CA 证书列表",
+      "detail.title": "CA 证书: {id}",
+      "create.form.title": "新建 CA 证书",
+      "edit.form.title": "编辑 CA 证书"
+    },
+    "sni": {
+      "description": "SNI 表示主机名与证书的一对多映射。",
+      "created": "SNI \"{name}\" 创建成功！",
+      "updated": "SNI \"{name}\" 更新成功！",
+      "deleted": "SNI \"{name}\" 删除成功！",
+      "list.title": "SNI 列表",
+      "detail.title": "SNI: {name}",
+      "create.form.title": "新建 SNI",
+      "edit.form.title": "编辑 SNI"
+    },
+    "target": {
+      "created": "Target \"{name}\" 创建成功！",
+      "updated": "Target \"{name}\" 更新成功！",
+      "deleted": "Target \"{name}\" 删除成功！",
+      "marked.as.healthy": "Target 标记为健康成功！",
+      "marked.as.unhealthy": "Target 标记为不健康成功！",
+      "list.title": "Targets",
+      "detail.title": "Target: {name}",
+      "create.form.title": "新建 Target",
+      "edit.form.title": "编辑 Target"
+    },
+    "vault": {
+      "description": "通过集中式秘钥管理提升 Kong 网关安全性。",
+      "created": "Vault \"{name}\" 创建成功！",
+      "updated": "Vault \"{name}\" 更新成功！",
+      "deleted": "Vault \"{name}\" 删除成功！",
+      "list.title": "Vault 列表",
+      "detail.title": "Vault: {name}",
+      "create.form.title": "新建 Vault",
+      "edit.form.title": "编辑 Vault"
+    },
+    "key": {
+      "description": "Key 对象表示各种格式的不对称密钥。",
+      "created": "Key \"{name}\" 创建成功！",
+      "updated": "Key \"{name}\" 更新成功！",
+      "deleted": "Key \"{name}\" 删除成功！",
+      "list.title": "Key 列表",
+      "detail.title": "Key: {name}",
+      "create.form.title": "新建 Key",
+      "edit.form.title": "编辑 Key"
+    },
+    "key-set": {
+      "description": "Key Set 对象包含一组不对称密钥。",
+      "created": "Key Set \"{name}\" 创建成功！",
+      "updated": "Key Set \"{name}\" 更新成功！",
+      "deleted": "Key Set \"{name}\" 删除成功！",
+      "list.title": "Key Set 列表",
+      "detail.title": "Key Set: {name}",
+      "create.form.title": "新建 Key Set",
+      "edit.form.title": "编辑 Key Set"
+    },
+    "dp-nodes": {
+      "list.title": "数据平面节点",
+      "copy.id": "复制 ID",
+      "copy.success": "已复制 {id} 到剪贴板",
+      "not.applicable": "不适用",
+      "headers": {
+        "hostname": "主机名",
+        "version": "版本",
+        "last.seen": "最后在线时间",
+        "sync.status": "同步状态",
+        "cert.expires.at": "证书过期时间",
+        "log.level": "日志级别",
+        "labels": "标签"
+      },
+      "empty": {
+        "title": "没有数据平面节点",
+        "message": "当前没有数据平面节点连接到控制平面"
+      },
+      "error": {
+        "title": "无法获取数据平面节点",
+        "fetch.fail": "获取数据平面失败",
+        "copy.fail": "复制失败",
+        "get.log.level.fail": "获取节点 {id} 日志级别失败"
+      },
+      "bulk.actions": {
+        "placeholder": "{count} 批量操作",
+        "change.log.level": "修改日志级别"
+      },
+      "tooltips": {
+        "revert": "日志级别计划在 {time} 恢复为 {level}",
+        "not.supported": "此数据平面节点不支持日志级别设置"
+      }
+    }
+  },
+  "wish": {
+    "text": "我希望这个页面能够…",
+    "subject": "我希望页面 ({title}) 能够…",
+    "tooltip": "向我们反馈您的意见"
+  },
+  "sidebar": {
+    "overview": "概览",
+    "services": "网关服务",
+    "routes": "路由",
+    "consumers": "消费者",
+    "plugins": "插件",
+    "upstreams": "上游服务",
+    "certificates": "证书",
+    "caCertificates": "CA 证书",
+    "snis": "SNI",
+    "vaults": "Vault",
+    "keys": "密钥",
+    "keySets": "密钥集"
+  }
+}
